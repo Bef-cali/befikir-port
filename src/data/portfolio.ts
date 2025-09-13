@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Befikir Yitagessu",
   title: "Flutter Developer",
   description: "I build apps that solve real-world problems.",
-  fullDescription: "I&apos;m a flutter dev specializing in building (and occasionally designing) exceptional digital experiences. Currently, I&apos;m focused on building accessible, problem-solving products.",
+  fullDescription: "I&rsquo;m a flutter dev specializing in building (and occasionally designing) exceptional digital experiences. Currently, I&rsquo;m focused on building accessible, problem-solving products.",
   email: "befikirlegacy@gmail.com",
   social: {
     github: "https://github.com/Bef-cali/",
@@ -16,7 +16,7 @@ export const experiences = [
     period: "2024 — PRESENT",
     title: "Mechanical Engineering student at Hawassa University",
     company: "Hawassa University",
-    description: "Pursuing a Bachelor&apos;s degree in Mechanical Engineering, focusing on the principles of mechanics, kinematics, thermodynamics, materials science, structural analysis, and electricity.",
+    description: "Pursuing a Bachelor&rsquo;s degree in Mechanical Engineering, focusing on the principles of mechanics, kinematics, thermodynamics, materials science, structural analysis, and electricity.",
     technologies: [""],
     link: "https://www.hu.edu.et/"
   },
@@ -33,7 +33,7 @@ export const experiences = [
 export const projects = [
   {
     title: "Flow",
-    description: "Time Tracker app but not just that Goal oriented time tracking, Wakatime integration for automatic, Time tracking through your supported IDE&apos;s, Weekly leaderboard competition between users, Track your Streak.",
+    description: "Time Tracker app but not just that Goal oriented time tracking, Wakatime integration for automatic, Time tracking through your supported IDE&rsquo;s, Weekly leaderboard competition between users, Track your Streak.",
     technologies: ["Flutter", "Dart", "Supabase", "Wakatime APIs", "Git"],
     link: "https://github.com/Bef-cali/Flow",
     github: "https://github.com/Bef-cali/Flow",

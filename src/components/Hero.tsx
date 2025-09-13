@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-slate-200 mb-6">
-            Hi, I&apos;m{' '}
+            Hi, I&rsquo;m{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">
               {personalInfo.name}
             </span>
