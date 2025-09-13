@@ -9,7 +9,7 @@ export default function Footer() {
             Get In Touch
           </h2>
           <p className="text-lg text-slate-400 mb-8 max-w-2xl mx-auto">
-            I'm always open to discussing new opportunities, interesting projects,
+            I&apos;m always open to discussing new opportunities, interesting projects,
             or just having a conversation about technology and development.
           </p>
           <a
