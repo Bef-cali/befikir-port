@@ -6,7 +6,7 @@ export default function Projects() {
     <section id="projects" className="py-20 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-slate-200 mb-12">Featured Projects</h2>
-        
+
         <div className="space-y-16">
           {projects.map((project, index) => (
             <div
@@ -14,7 +14,7 @@ export default function Projects() {
               className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50"
             >
               <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-              
+
               <div className="z-10 sm:order-2 sm:col-span-6">
                 <h3>
                   <a
@@ -40,11 +40,11 @@ export default function Projects() {
                     </span>
                   </a>
                 </h3>
-                
+
                 <p className="mt-2 text-sm leading-normal text-slate-400">
                   {project.description}
                 </p>
-                
+
                 <ul className="mt-2 flex flex-wrap">
                   {project.technologies.map((tech, techIndex) => (
                     <li key={techIndex} className="mr-1.5 mt-2">
@@ -54,7 +54,7 @@ export default function Projects() {
                     </li>
                   ))}
                 </ul>
-                
+
                 {project.github && (
                   <div className="mt-2">
                     <a
@@ -71,7 +71,7 @@ export default function Projects() {
                   </div>
                 )}
               </div>
-              
+
               <div className="z-10 sm:order-1 sm:col-span-2">
                 <div className="relative flex justify-center">
                   <div className="rounded border-2 border-slate-200/10 bg-slate-800/50 overflow-hidden w-[120px] h-[200px] sm:w-[100px] sm:h-[180px] md:w-[120px] md:h-[200px]">
@@ -90,11 +90,11 @@ export default function Projects() {
             </div>
           ))}
         </div>
-        
+
         <div className="mt-12">
           <a
             className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
-            href="/projects"
+            href="https://github.com/Bef-cali/"
           >
             <span>
               <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
