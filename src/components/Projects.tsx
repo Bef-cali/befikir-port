@@ -73,15 +73,15 @@ export default function Projects() {
               </div>
               
               <div className="z-10 sm:order-1 sm:col-span-2">
-                <div className="relative">
-                  <div className="rounded border-2 border-slate-200/10 bg-slate-800/50 overflow-hidden">
+                <div className="relative flex justify-center">
+                  <div className="rounded border-2 border-slate-200/10 bg-slate-800/50 overflow-hidden w-[120px] h-[200px] sm:w-[100px] sm:h-[180px] md:w-[120px] md:h-[200px]">
                     {project.image && (
                       <Image
                         alt={project.title}
                         src={project.image}
-                        width={200}
-                        height={150}
-                        className="rounded object-cover w-full h-[120px]"
+                        width={120}
+                        height={200}
+                        className="rounded object-cover w-full h-full"
                       />
                     )}
                   </div>
