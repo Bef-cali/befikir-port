@@ -9,7 +9,7 @@ const lexend = Lexend({
 
 export const metadata: Metadata = {
   title: "Befikir Yitagessu - Flutter Dev",
-  description: "Software engineer specializing in building exceptional digital experiences at the intersection of design and development.",
+  description: "'m a flutter dev specializing in building (and occasionally designing) exceptional digital experiences",
   keywords: ["UI/UX", "Flutter developer", "frontend developer", "Firebase", "Dart", "Supabase"],
   authors: [{ name: "Befikir Yitagessu" }],
   viewport: "width=device-width, initial-scale=1",
